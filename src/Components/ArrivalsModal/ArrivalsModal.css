@@ -1,0 +1,20 @@
+.modal {
+    /* display: none; Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top of other elements */
+    left: 25%;
+    top: 25%;
+    transform: translate(-15%, -15%); /* Center the modal */    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent dark background */
+    backdrop-filter: blur(8px); /* This adds the blur effect */
+    z-index: 1000; /* Make sure it's above the rest of the content */
+}
